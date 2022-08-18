@@ -3,3 +3,12 @@
 
   /* CSS Blanter Mini Slider */
 .blanter-wrap,.slide-wrap{overflow:hidden;position:relative}.slide-wrap{margin:30px 0}.slide-wrap li,.slide-wrap ul{list-style:none;padding:0;margin:0}.slide-wrap ul li a img{height:309px;width:100%;border-radius:4px}.blanter-wrap{overflow-x:scroll;width:100%;height:330px}.slide-wrap ul{position:absolute}.slide-wrap li{white-space:nowrap}.slide-wrap iframe{width:100%;height:87%;background:#000}.slide-wrap ul li a{cursor:auto;padding-right:0!important;margin-right:18px;display:inline-block;vertical-align:middle;position:relative;max-width:550px;height:355px;background-position:center;background-repeat:no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover}.slide-wrap ul li a:last-child{margin-right:0}
+
+/* Accordion */
+.showH{margin:1.7em 0;font-size:.93rem;line-height:1.7em}details.ac{padding:18px 0;border-bottom:1px solid rgb(0 0 0 / 16%)}details.ac:first-child{border-top:1px solid rgb(0 0 0 / 16%)}details.ac summary{font-weight:700;cursor:default;display:flex;align-items:baseline}details.ac summary::before{content:'\203A';flex:0 0 25px;display:flex;align-items:center;justify-content:flex-start;padding:0 5px;font-weight:400;font-size:1.33rem;color:inherit}details.ac[open] summary{color:#000}details.ac:not(.alt)[open] summary::before{transform:rotate(90deg);padding:0 0 0 5px;justify-content:center}details.ac.alt summary::before{content:'\002B';padding:0 2px}details.ac.alt[open] summary::before{content:'\2212'}details.ac .aC{padding:0 25px;opacity:.9}
+
+/* Note */
+blockquote.alert,blockquote.check,blockquote.flag,blockquote.star,blockquote.warn{font-size:16px;font-weight:500;text-align:center;color:#127d55;background-color:#e6fcf3;padding:30px;margin:15px 0;border-radius:8px;box-shadow:0 2px 4px 0 rgb(0 0 0 / 7%)}blockquote.flag{background-color:#e1f5fe;color:#01579b}blockquote.warn{color:#68610c;background-color:#fbfecb}blockquote.alert{color:#7d1212;background-color:#fce6e6}blockquote.star{color:#365aaa;background-color:#ecedfb}
+
+/* Ext link */
+.extL::after{content:'';width:14px;height:14px;display:inline-block;margin:0 5px;background:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23989b9f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M13 11L21.2 2.80005'/><path d='M22 6.8V2H17.2'/><path d='M11 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V13'/></svg>") center / 14px no-repeat}
